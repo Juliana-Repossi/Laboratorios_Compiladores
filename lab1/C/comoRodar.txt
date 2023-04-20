@@ -1,0 +1,3 @@
+flex nome_do_arq.l
+gcc lex.yy.c -lfl
+./a.out <<< ou < 
