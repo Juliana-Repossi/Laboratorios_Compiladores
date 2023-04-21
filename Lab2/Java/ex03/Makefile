@@ -3,7 +3,7 @@ JAVAC=javac
 # Comando da JVM
 JAVA=java
 # ROOT é a raiz dos diretórios com todos os roteiros de laboratórios
-ROOT=/home/jcrepossi/Laboratorios_Compiladores
+ROOT=/home/juliana/Transferências/Juliana/Laboratorios_Compiladores
 # Caminho para o JAR do ANTLR em labs/tools
 ANTLR_PATH=$(ROOT)/tools/antlr-4.11.1-complete.jar
 # Opção de configuração do CLASSPATH para o ambiente Java
@@ -13,7 +13,7 @@ ANTLR4=$(JAVA) -jar $(ANTLR_PATH)
 # Configuração do ambiente de teste do ANTLR
 GRUN=$(JAVA) $(CLASS_PATH_OPTION) org.antlr.v4.gui.TestRig
 # Nome da gramática
-GRAMMAR_NAME=ex02
+GRAMMAR_NAME=ex03
 # Diretório para aonde vão os arquivos gerados
 GEN_PATH=parser
 
